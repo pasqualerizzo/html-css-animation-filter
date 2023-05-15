@@ -1,0 +1,260 @@
+
+/* soluzioni */
+
+/* esercizio 1 */
+
+.ex-1-square {
+    transition: 4s;
+}
+
+.ex-1-square:hover {
+    background-color: red;
+}
+
+/* esercizio 2 */
+
+.ex-2-square {
+    transition: 2s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+/* esercizio 3 */ 
+
+.ex-3-square {
+    transition: 2s;
+}
+
+.ex-3-square:hover {
+    border-radius: 100%;
+}
+
+/* esercizio 4 */ 
+
+.ex-4-square {
+    transition: 2s;
+}
+
+.ex-4-square:hover {
+    background-color: transparent;
+}
+
+/* esercizio 5 */ 
+
+.ex-5-square {
+    transition: 2s;
+}
+
+.ex-5-square:hover {
+    height: 80px;
+    width: 80px;
+}
+
+.ex-5-square:active {
+    height: 40px;
+    width: 40px;
+}
+
+/* esercizio 6*/ 
+
+.ex-6-img {
+    /* transition: 2s; */
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* esercizio 7*/ 
+
+.ex-7-img {
+    transition: 2s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(1) brightness(0.3);
+}
+
+/* esercizio 8 */
+
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: blur(1px) sepia(0.3);
+    border-radius: 10px;
+}
+
+/* esercizio 9 */
+
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    filter: blur(1px) sepia(0.3);
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+
+/* esercizio 10 */
+
+.ex-10-icon:hover {
+    animation-name: giro;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+}
+
+@keyframes giro {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* esercizio 11 */
+
+.ex-11-icon:hover {
+    animation-name: giro;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal
+    
+}
+
+@keyframes giro {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    60% {
+        transform: rotate(300deg);
+    }
+
+    90% {
+        transform: rotate(0deg);
+
+    }
+}
+
+/* esercizio 12 */
+
+.ex-12-button:hover  .ex-12-top-white {
+    animation-name: topwhite;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:linear
+}
+
+.ex-12-button:hover  .ex-12-bottom-white {
+    animation-name: bottomwhite;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:linear
+}
+
+@keyframes topwhite {
+    0% {
+        left: 20%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 20%;
+    }
+}
+
+@keyframes bottomwhite {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
+    }
+}
+
+/* esercizio 13 */
+
+
+.ex-13-button:hover  .ex-13-top-white {
+    animation-name: topwhite2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:linear
+}
+
+.ex-13-button:hover  .ex-13-bottom-white {
+    animation-name: bottomwhite2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:linear
+}
+
+@keyframes topwhite2 {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+@keyframes bottomwhite2 {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    30% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    45% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+    90% {
+        right: -15px;
+        bottom: -10px;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
+
+/* GLI ULTIMI DUE SENZA SOLUZIONI NON CI SAREI MAI ARRIVATO IN QUESTA VITA 
+E NELLE PROSSIME A SEGUIRE */
