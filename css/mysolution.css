@@ -59,10 +59,6 @@
 
 /* esercizio 6*/ 
 
-.ex-6-img {
-    /* transition: 2s; */
-}
-
 .ex-6-img:hover {
     filter: grayscale(1);
 }
